@@ -28,6 +28,7 @@ int main(void) {
     for (i = 0;str2[j] != '\0';j++);
     printf("%d\n",j);
     //¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥
+    //三回目
     int k;
     
     char str3[256];
@@ -35,6 +36,7 @@ int main(void) {
     for (i = 0;str3[k] != '\0';k++);
     printf("%d\n",k);
     //¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥
+    //４回目
     int l;
     
     char str4[256];

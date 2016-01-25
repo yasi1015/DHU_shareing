@@ -28,15 +28,7 @@ int main(void){
         if (n == 6){
             break;
         }
-        else if (n ==3){
-            printf("走りました");
-            break;
-        }
-        /*
-        else if(n == 3){
-            count = 1;
-        }
-         */
+        
         else if (n == -1){
             continue;
         }
@@ -46,22 +38,6 @@ int main(void){
     }
      
  
-      if(count == 1){
-        t1 = h1 * 3600 + m1 * 60 + s1;
-        t2 = h2 * 3600 + m2 * 60 + s2;
-        //秒に変換して足したもの
-        diff = abs(t1 + t2);
-        //時間が計算される
-        hd = diff / 3600;
-        //分
-        md = (diff - 3600 * hd) / 60;
-        //sd = diff - 3600 * hd - md * 60;
-        
-        printf("%02d:%02d:%02d ", hd, md, sd);
-        
-        
-    }
-    
     t1 = h1 * 3600 + m1 * 60 + s1;
     t2 = h2 * 3600 + m2 * 60 + s2;
     

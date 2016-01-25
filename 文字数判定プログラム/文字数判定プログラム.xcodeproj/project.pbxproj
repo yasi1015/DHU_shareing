@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		771E69BC1C54CC1800D5D74F /* 文字数判定プログラム */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "文字数判定プログラム"; sourceTree = BUILT_PRODUCTS_DIR; };
+		771E69BC1C54CC1800D5D74F /* 文字数判定プログラム */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "文字数判定プログラム"; path = "/Users/Ryosuke/Documents/Xcode/dhu/文字数判定プログラム/build/Debug/文字数判定プログラム"; sourceTree = "<absolute>"; };
 		771E69BF1C54CC1800D5D74F /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,16 +42,7 @@
 			isa = PBXGroup;
 			children = (
 				771E69BE1C54CC1800D5D74F /* 文字数判定プログラム */,
-				771E69BD1C54CC1800D5D74F /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		771E69BD1C54CC1800D5D74F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				771E69BC1C54CC1800D5D74F /* 文字数判定プログラム */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		771E69BE1C54CC1800D5D74F /* 文字数判定プログラム */ = {
@@ -104,7 +95,7 @@
 				en,
 			);
 			mainGroup = 771E69B31C54CC1800D5D74F;
-			productRefGroup = 771E69BD1C54CC1800D5D74F /* Products */;
+			productRefGroup = 771E69B31C54CC1800D5D74F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -237,6 +228,7 @@
 				771E69C51C54CC1800D5D74F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
